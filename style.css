@@ -4,9 +4,29 @@ p {
   font-style: italic;
   font-size: 9mm;
   font-weight: 100;
-
-  text-shadow: rgb(122, 122, 131) 1px 1px;
+  margin: 0;
+  padding: 0;
   margin-left: 500px;
+
+  text-indent: 1px;
+  text-shadow: rgb(122, 122, 131) 1px 1px;
+}
+h1 {
+  font-family: "Faustina";
+  font-style: italic;
+  margin-left: 500px;
+
+  font-size: 13mm;
+  text-decoration: underline;
+}
+p::first-letter {
+  font-size: 200%;
+}
+h4 {
+  font-family: "Faustina";
+  font-style: italic;
+  margin-left: 500px;
+  font-size: 5mm;
 }
 html {
   background-image: url("örn.jpg");
