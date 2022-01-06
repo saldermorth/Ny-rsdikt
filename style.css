@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Faustina");
+p {
+  font-family: "Faustina";
+  font-style: italic;
+  font-size: 9mm;
+  font-weight: 100;
+
+  text-shadow: rgb(122, 122, 131) 1px 1px;
+  margin-left: 500px;
+}
+html {
+  background-image: url("örn.jpg");
+  background-repeat: round;
+}
